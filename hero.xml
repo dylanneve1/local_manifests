@@ -9,8 +9,8 @@
   <project name="dylanneve1/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1" />
   
   <!--Device Repos-->
-  <project name="dylanneve1/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" />
-  <project name="dylanneve1/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" />
+  <project name="dylanneve1/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="aicp-13.1" />
+  <project name="dylanneve1/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="aicp-13.1" />
   <project name="dylanneve1/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" />
   <project name="dylanneve1/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="dylanneve1/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
