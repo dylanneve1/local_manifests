@@ -6,7 +6,7 @@
   <project name="dylanneve1/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
   
   <!--Blobs-->
-  <project name="dylanneve1/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1" />
+  <project name="8890dev/android_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="cm-14.1" />
   
   <!--Device Repos-->
   <project name="dylanneve1/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="aicp-13.1" />
