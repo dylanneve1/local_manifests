@@ -2,7 +2,7 @@
 
 <manifest>
 
-  <project name="evolve-hero2lte/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="audio-test"/>
+  <project name="deed821/hero-common" path="device/samsung/hero-common" remote="github" revision="gzosp"/>
 
   <project name="evolve-hero2lte/android_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="darkness"/>
 
@@ -25,7 +25,7 @@
   <!-- Kernel Toolchain -->
 
 
-  <project name="djb77/aarch64-cortex_a53-linux-gnueabi" path="prebuilts/gcc/linux-x86/aarch64/aarch64-cortex_a53-linux-gnueabi" remote="github" revision="gcc-6"/>
+  <project name="deed821/toolchain" path="prebuilts/gcc/linux-x86/aarch64/aarch64-cortex_a53-linux-gnueabi" remote="github" revision="gcc-6"/>
 
   <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" /> -->
 
