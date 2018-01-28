@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<manifest>
-  
-  <!--LOS Repos-->
-  <project name="dylanneve1/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
-  
-  <!--Blobs-->
-  <project name="dylanneve1/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1" />
-  
-  <!--Device Repos-->
-  <project name="dylanneve1/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="aicp-13.1" />
-  <project name="dylanneve1/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="aicp-13.1" />
-  <project name="dylanneve1/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="lineage-15.1" />
-  <project name="dylanneve1/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
-  <project name="dylanneve1/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1" />
-  <project name="dylanneve1/android_hardware_samsung_slsi-cm_exynos8890" path="hardware/samsung_slsi-cm/exynos8890" remote="github" revision="lineage-15.1" />
-  <project name="dylanneve1/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.0" />
-  <project name="dylanneve1/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="lineage-15.1" />
-
-</manifest>
++<manifest>
++  <remote fetch="https://github.com/8890dev" name="8890dev" revision="cm-14.1" />
++  <project name="evolve-hero2lte/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="nougat" />
++  <project name="android_device_samsung_herolte" path="device/samsung/herolte" remote="8890dev" />
++  <project path="kernel/samsung/universal8890" name="deed821/kernel" remote="github" revision="cm-14.1"/>
++  <project name="evolve-hero2lte/android_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="darkness" />
++  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
++  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="cm-14.1" />
++  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="cm-14.1" />
++  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="cm-14.1" />
++  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" path="hardware/samsung_slsi-cm/exynos8890" remote="github" revision="cm-14.1" />
++
++<!--  Kernel Toolchain -->
++<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-cortex_a53-linux-gnueabi" name="djb77/aarch64-cortex_a53-linux-gnueabi" remote="github" revision="uber" />
++<!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" /> -->
++</manifest>
